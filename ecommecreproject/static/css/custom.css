@@ -20,14 +20,6 @@ body{
            text-transform:uppercase;
 }
 
-.my_footer {
-    background-color:#ced4da;
-    height:60px;
-}
-.my_footer p{
-    padding:20px;
-    font-size:14px;
-}
 /***Category***/
 .my_row_class{
     padding-top:15px;

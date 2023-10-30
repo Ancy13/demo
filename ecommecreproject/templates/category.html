@@ -47,7 +47,7 @@
     <div class="row max_auto">
         {% for product in products.object_list %}
         <div class="my_bottom-margin col-9 col-sm-12  col-md-4 col-lg-4">
-            <div class="card text-center" style="min-width:18rem;">
+            <div class="card text-center" style="width:280px;height:350px">
                 <a href="{{product.get_url}}"><img src="{{product.image.url}}" class="card-img-top my_image" alt="{{product.name}}"></a>
                 <div class="card-body">
                     <h5 >{{product.name}}</h5>
